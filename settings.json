@@ -1,0 +1,23 @@
+{
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 1,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "files.autoSave": "afterDelay",
+    "window.autoDetectColorScheme": true,
+    "window.closeWhenEmpty": true,
+    //"php.validate.executablePath": "C:/xampp/php/php.exe",
+    "editor.formatOnSave": true,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "git.autorefresh": false,
+    "git.autoRepositoryDetection": false,
+    "github.gitAuthentication": false,
+    "search.useIgnoreFiles": false,
+    "editor.fontSize": 15,
+    "workbench.colorTheme": "Visual Studio Dark"
+}
