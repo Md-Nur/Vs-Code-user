@@ -15,10 +15,16 @@
 	"Start C program": {
 		"prefix": "inc",
 		"body": [
+			"//$1",
 			"#include <stdio.h>",
+			"#include <math.h>",
+			"#include <string.h>",
+			"#include <stdlib.h>",
+			"#include <time.h>",
+			"",
 			"void main()",
-			"{\t$1",
-			"\t",
+			"{",
+			"\t$2$2",
 			"}",
 		],
 		"description": "C programing"
@@ -26,32 +32,26 @@
 	"printf": {
 		"prefix": "pr",
 		"body": [
-			"printf($1);",
+			"printf(\"$1\\n\"$2);",
 		],
 		"description": "C programing er print"
 	},
 	"scanf": {
 		"prefix": "sc",
 		"body": [
-			"printf($1);",
-			"scanf($2, &$3);",
-		],
-		"description": "C programing er scanf"
-	},
-	"int": {
-		"prefix": "in",
-		"body": [
-			"int a,b,c;",
+			"printf(\"${1:Enter }\");",
+			"scanf(\"%$2\", &$3);",
 		],
 		"description": "C programing er scanf"
 	},
 	"gets": {
 		"prefix": "ge",
 		"body": [
+			"printf(\"${1:Enter }\");",
 			"fflush(stdin);",
-			"gets($1);",
+			"gets($2);",
 		],
-		"description": "String er input neyar jonno gets"
+		"description": "String er input neyar jonno gets er fflush use kora hoyeche"
 	},
 	"#define": {
 		"prefix": "def",
